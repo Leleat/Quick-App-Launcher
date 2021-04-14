@@ -36,7 +36,7 @@ class Extension {
 		// hardcode/limit to 30 keybindings
 		[...Array(30)].forEach((undef, idx) => this.keyBindings.push(`launch-app${idx}`));
 		this.keyBindings.forEach(key => {
-			main.wm.addKeybinding(key, this.settings, Meta.KeyBindingFlags.IGNORE_AUTOREPEAT, Shell.ActionMode.NORMAL
+			main.wm.addKeybinding(key, this.settings, Meta.KeyBindingFlags.IGNORE_AUTOREPEAT, Shell.ActionMode.NORMAL | Shell.ActionMode.OVERVIEW
 					, this.onKeybindingPressed.bind(this, key));
 		});
 	}
@@ -54,6 +54,8 @@ class Extension {
 		const app = Shell.AppSystem.get_default().lookup_app(appID);
 		if (!app)
 			return;
+
+		main.overview.hide();
 
 		const winTracker = Shell.WindowTracker.get_default();
 		const window = global.display.focus_window;
