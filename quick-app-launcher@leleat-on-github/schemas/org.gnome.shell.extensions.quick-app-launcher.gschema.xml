@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema id="org.gnome.shell.extensions.quick-app-launcher" path="/org/gnome/shell/extensions/quick-app-launcher/">
+		<key name="app-list" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app0" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app1" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app2" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app3" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app4" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app5" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app6" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app7" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app8" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app9" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app10" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app11" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app12" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app13" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app14" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app15" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app16" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app17" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app18" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app19" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app20" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app21" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app22" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app23" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app24" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app25" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app26" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app27" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app28" type="as">
+			<default>[]</default>
+		</key>
+		<key name="launch-app29" type="as">
+			<default>[]</default>
+		</key>
+	</schema>
+</schemalist>

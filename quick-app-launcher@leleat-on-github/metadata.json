@@ -1,0 +1,10 @@
+{
+  "name": "Quick App Launcher",
+  "description": "Launch apps with keybindings. If the to-be-launched app already has a window open, focus that window instead. If the focused window is an instance of the app, open a new window.",
+  "uuid": "quick-app-launcher@leleat-on-github",
+  "shell-version": [
+    "3.36",
+    "3.38",
+    "40"
+  ]
+}
