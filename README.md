@@ -1,4 +1,19 @@
-# Quick App Launcher
+# No longer maintained because I've found https://extensions.gnome.org/extension/1336/run-or-raise/ which is more powerful.
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+## Quick App Launcher
 
 A GNOME extension to launch apps with keybindings. If the to-be-launched app already has a window open, focus that window instead. If the focused window is an instance of the app, open a new window. 
 
